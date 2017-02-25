@@ -59,7 +59,7 @@ int increasing(int arr[], int size){
 int i;
 int test;
 
-for(i = 0; i < size; i++){
+for(i = 0; i < size-1; i++){
 
 if(arr[i] <= arr[i+1]){
 test = 1;
